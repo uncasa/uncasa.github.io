@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.conatiner {
+  margin: 0px 250px;
+  
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin: 20px 0px;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  
+  font-size: 15px;
+  margin: 15px 0px;
+}
+header {
+  position: relative;
+}
+.header {
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  font-size: 3em;
+  position: absolute;
+  bottom: 5%;
+}
+img {
+  width: 80%;
+  text-align: center;
+/*   position: relative; */
+}
+p,li {
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.5em;
+}
+
+li {
+  list-style-type: square;
+}
+h3 {
+  font-size: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+hr {
+  border: 2px solid black;
+}
+blockquote:before {
+  content: '”';
+  position: absolute;;
+  top: 0%;
+  left: 0%;
+  font-size: 2em;
+  padding: 0;
+}
+blockquote {
+  background-color: #444;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 4em;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+.left:hover {
+  background: rgba(153, 153, 153, 1);
+  cursor: pointer;
+  left: -3%;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background: rgba(153, 153, 153, 0.5);
+  border-radius: 50%;
+  
+  
+}
+.left:before {
+  content: '>';
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+
+.left {
+  top: 50%;
+  left: -5%;
+  position: fixed;
+}
+
+.right {
+  top: 50%;
+  right: -5%;
+  position: fixed;
+}
+
+.right:hover {
+  background: rgba(153, 153, 153, 1);
+  cursor: pointer;
+  right: -3%;
+}
+p {
+  
+}
+flexbox {
+  position: absolute; 
+  display: inline;
+  font-size: 2em;
+/*   font-style-type:  */
+  font-weight: 900;
+  
+}
+span {
+/*   display: inline-flex; */
+  margin: 10px 30px;
+  display: inline;
+/*   background: red; */
+/*   text-align: center; */
+  flex-direction: row;
+/*   flex-wrap: wrap; */
+/*   justify-content: center; */
+  color: white;
+  background: black;
+/*   width: 180px; */
+ 
+}
+.header-container {
+  color: green;
+  display: flex;
+  background: black;
+  border: 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2em;
+}
